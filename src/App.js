@@ -14,13 +14,13 @@ import AboutUs from "./components/pages/AboutUs";
 function App() {
   return (
     <div>
-      <HashRouter>
+      <HashRouter basename="/">
         <Layout>
           <Switch>
-            {/* <Route path="/" component={Home}></Route>
+            <Route exact path="/" component={Home}></Route>
             <Route path="/AboutUs" component={AboutUs}></Route>
-            <Route path="/Prototype" component={Prototype}></Route> */}
-            <Route exact path="/">
+            <Route path="/Prototype" component={Prototype}></Route>
+            {/* <Route exact path="/">
               <Home />
             </Route>
             <Route path="/AboutUs">
@@ -28,7 +28,7 @@ function App() {
             </Route>
             <Route path="/Prototype">
               <Prototype />
-            </Route>
+            </Route> */}
           </Switch>
         </Layout>
       </HashRouter>

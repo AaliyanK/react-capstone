@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./MenuBar.css";
+import { Link } from "react-router-dom";
 
 const MenuBar = () => {
   return (
@@ -16,13 +17,13 @@ const MenuBar = () => {
 
         <ul className="menu">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/AboutUs">About Us</a>
+            <Link to="/AboutUs">About Us</Link>
           </li>
           <li>
-            <a href="/Prototype">Use the Prototype!</a>
+            <Link to="/Prototype">Use the Prototype!</Link>
           </li>
         </ul>
       </div>
