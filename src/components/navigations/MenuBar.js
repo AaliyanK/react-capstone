@@ -7,9 +7,9 @@ const MenuBar = () => {
   return (
     <nav className="header">
       <div className="nav-wrapper">
-        <a className="logo" href="/">
+        <Link className="logo" to="/">
           Zena
-        </a>
+        </Link>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
