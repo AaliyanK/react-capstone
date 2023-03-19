@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-capstone/static/css/main.cfec52b3.css",
-    "main.js": "/react-capstone/static/js/main.c62fa997.js",
+    "main.js": "/react-capstone/static/js/main.f41d1148.js",
     "static/js/787.cda612ba.chunk.js": "/react-capstone/static/js/787.cda612ba.chunk.js",
     "static/media/bioreactor2.jpg": "/react-capstone/static/media/bioreactor2.8f17b129ca739955ad7e.jpg",
     "static/media/irfan.jpg": "/react-capstone/static/media/irfan.b4d1d71e2e6c5e089613.jpg",
@@ -9,11 +9,11 @@
     "static/media/aaliyan.jfif": "/react-capstone/static/media/aaliyan.81fc54619a88476153ad.jfif",
     "index.html": "/react-capstone/index.html",
     "main.cfec52b3.css.map": "/react-capstone/static/css/main.cfec52b3.css.map",
-    "main.c62fa997.js.map": "/react-capstone/static/js/main.c62fa997.js.map",
+    "main.f41d1148.js.map": "/react-capstone/static/js/main.f41d1148.js.map",
     "787.cda612ba.chunk.js.map": "/react-capstone/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfec52b3.css",
-    "static/js/main.c62fa997.js"
+    "static/js/main.f41d1148.js"
   ]
 }
